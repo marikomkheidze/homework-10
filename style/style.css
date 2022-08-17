@@ -23,7 +23,7 @@
 .nav-link {
     font-family: 'Montserrat';
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: capitalize;
     color: #FFFFFF;
 
@@ -88,7 +88,7 @@
 .nav-link:hover {
     font-size: 25px;
     color: black;
-    font-weight: 700;
+    font-weight: 900
 }
 
 .orderbutton:hover {
