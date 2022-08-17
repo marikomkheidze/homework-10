@@ -29,12 +29,22 @@
 
 }
 
+.burger {
+    display: none;
+    font-size: 70px;
+    font-weight: 900;
+    color: #fff;
+}
+
 .header {
     width: 100%;
     background-image: url(../images/cover-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding-bottom: 323px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .titles {
@@ -69,6 +79,7 @@
 
 .orderbutton {
     font-family: 'Avengeance Mightiest Avenger';
+    width: 100%;
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
@@ -81,6 +92,7 @@
     border-radius: 90px;
 
 }
+
 
 
 /* hover */
