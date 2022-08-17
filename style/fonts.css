@@ -7,3 +7,13 @@
         url('Montserrat-Thin.ttf') format('truetype'),
         url('Montserrat-Thin.svg#Montserrat-Thin') format('svg');
 }
+
+@font-face {
+    font-family: 'Avengeance Mightiest Avenger';
+    src: url('AvengeanceMightiestAvenger.eot');
+    src: url('AvengeanceMightiestAvenger.eot?#iefix') format('embedded-opentype'),
+        url('AvengeanceMightiestAvenger.woff2') format('woff2'),
+        url('AvengeanceMightiestAvenger.woff') format('woff'),
+        url('AvengeanceMightiestAvenger.ttf') format('truetype'),
+        url('AvengeanceMightiestAvenger.svg#AvengeanceMightiestAvenger') format('svg');
+}
