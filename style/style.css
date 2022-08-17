@@ -7,3 +7,90 @@
     overflow: hidden;
     height: 100%;
 }
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.nav-list {
+    display: flex;
+    width: 563px;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+.header {
+    width: 100%;
+    background-image: url(../images/cover-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 323px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    margin-top: 118px;
+    font-family: 'Avengeance Mightiest Avenger';
+    font-size: 96px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    margin-top: 118px;
+    margin-bottom: 62px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 30px;
+    color: #FFFFFF;
+    max-width: 371px;
+}
+
+.button {
+    display: flex;
+
+}
+
+.orderbutton {
+    font-family: 'Avengeance Mightiest Avenger';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #A80E0E;
+    background-color: #FFAA00;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 90px;
+
+}
+
+
+/* hover */
+
+.nav-link:hover {
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+.orderbutton:hover {
+    font-size: 20px;
+}
