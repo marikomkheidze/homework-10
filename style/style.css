@@ -1,3 +1,4 @@
+/* ტექნიკური კლასები */
 .box {
     max-width: 1448px;
     margin: 0 auto;
@@ -7,6 +8,8 @@
     overflow: hidden;
     height: 100%;
 }
+
+/* header start */
 
 .logo-nav {
     display: flex;
@@ -93,6 +96,75 @@
 
 }
 
+/* ------------------------------section1-------------------------------------------- */
+.sec-1 {
+    width: 100%;
+
+}
+
+.titles2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title2 {
+    font-family: 'Avengeance Mightiest Avenger';
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #A80E0E;
+    margin-top: 139px;
+    margin-bottom: 43px;
+}
+
+.subtitle2 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 72px;
+}
+
+.menu-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu-items {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.describtion {
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.sec-1 {
+    padding-bottom: 50px;
+}
+
+.img-div {
+    width: 100px;
+}
+
 
 
 /* hover */
@@ -105,4 +177,9 @@
 
 .orderbutton:hover {
     font-size: 20px;
+}
+
+.menu-items:hover {
+    padding: 5px;
+    box-shadow: 5px 5px 20px 5px #C7C7C7;
 }
