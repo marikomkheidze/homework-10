@@ -13,7 +13,14 @@
         flex: 30%;
     }
 
-    
+    .footer-div {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 47%;
+        gap: 50px;
+    }
+
+
 }
 
 
