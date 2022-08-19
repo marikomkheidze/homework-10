@@ -133,7 +133,6 @@
 .menu-block {
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
     flex-wrap: wrap;
     padding-left: 30px;
     padding-right: 30px;
@@ -146,6 +145,13 @@
     align-items: center;
     text-align: center;
     background-color: #fff;
+    padding: 20px;
+}
+
+.menu-items img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
 
 .describtion {
@@ -157,14 +163,65 @@
 
 }
 
-.sec-1 {
-    padding-bottom: 50px;
-}
+
 
 .img-div {
     width: 100px;
 }
 
+.adv-block {
+
+    width: 100%;
+    background-color: #FFAA00;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-top: 168px
+}
+
+.titles3 {
+
+    max-width: 436px;
+    color: #FFFFFF;
+    margin-left: 100px;
+
+}
+
+.title3 {
+
+    font-family: 'Avengeance Mightiest Avenger';
+    font-weight: 400;
+    font-size: 47px;
+    text-transform: uppercase;
+    margin-bottom: 63px;
+    text-align: center;
+}
+
+.subtitle3 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.sec-2 {
+    width: 1448px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.courier {
+    max-width: 800px;
+}
+
+.men {
+    width: 100%;
+}
 
 
 /* hover */
@@ -180,6 +237,5 @@
 }
 
 .menu-items:hover {
-    padding: 5px;
     box-shadow: 5px 5px 20px 5px #C7C7C7;
 }
