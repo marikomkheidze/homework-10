@@ -223,6 +223,125 @@
     width: 100%;
 }
 
+/* -----------------------------------------------section4-------------------------------------------------- */
+.sec-3 {
+    padding-top: 126px;
+    padding-bottom: 126px;
+}
+
+.titles-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title4 {
+    text-align: center;
+    font-family: 'Avengeance Mightiest Avenger';
+    font-size: 40px;
+    font-weight: 400;
+    color: #A80E0E;
+    margin-bottom: 64px;
+
+}
+
+.subtitle4 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: black;
+}
+
+.adv-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 58px 56px;
+    padding: 30px;
+}
+
+.adv-block2 {
+    width: 400px;
+
+}
+
+.adv-titles {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+    margin-top: 73px;
+    margin-bottom: 40px;
+
+}
+
+.adv-title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 12px;
+
+}
+
+.adv-subtitle {
+    color: #686868;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+
+.adv-img img {
+    width: 400px;
+}
+
+.prise-button {
+    display: flex;
+    margin-left: 36px;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.button-cart {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 14px;
+    display: flex;
+    width: 150px;
+    min-height: 25px;
+    margin-right: 12px;
+    background-color: #FFAA00;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.showmenu {
+    font-family: 'Avengeance Mightiest Avenger';
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #FFAA00;
+    background-color: #A80E0E;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 90px;
+
+}
+
+.prise {
+    font-family: 'Avengeance Mightiest Avenger';
+    font-size: 22px;
+    font-weight: 400;
+    color: #A80E0E;
+}
+
 
 /* hover */
 
@@ -232,9 +351,15 @@
     font-weight: 900
 }
 
-.orderbutton:hover {
+.orderbutton:hover,
+.showmenu:hover {
     font-size: 20px;
 }
+
+.button-cart:hover {
+    background-color: #A80E0E;
+}
+
 
 .menu-items:hover {
     box-shadow: 5px 5px 20px 5px #C7C7C7;
